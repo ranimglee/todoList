@@ -1,0 +1,26 @@
+<div class="todo-form-container">
+    <h2>{{ isEditMode ? 'Edit Todo' : 'Create Todo' }}</h2>
+    
+    <form [formGroup]="todoForm" (ngSubmit)="saveTodo()">
+      <div>
+        <label for="title">Title:</label>
+        <input id="title" formControlName="title" type="text" />
+      </div>
+  
+      <div>
+        <label for="description">Description:</label>
+        <textarea id="description" formControlName="description"></textarea>
+      </div>
+  
+      <div>
+        <label for="isCompleted">Completed:</label>
+        <input id="isCompleted" formControlName="isCompleted" type="checkbox" />
+      </div>
+  
+      <button type="submit">{{ isEditMode ? 'Update' : 'Create' }}</button>
+      
+    </form>
+    <button (click)="goBack()" class="btn btn-secondary mt-3">Back</button>
+
+  </div>
+  

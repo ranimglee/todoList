@@ -1,0 +1,57 @@
+.todo-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .todo-form-container h2 {
+    text-align: center;
+  }
+  
+  .todo-form-container div {
+    margin-bottom: 15px;
+  }
+  
+  .todo-form-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .todo-form-container input,
+  .todo-form-container textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .todo-form-container button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .todo-form-container button:hover {
+    background-color: #c5cec7;
+  }
+
+  .btn-secondary {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  
+  
